@@ -90,7 +90,7 @@ After a few seconds you should discover every topic that the router exposes, giv
 
 #### 2.3  FFMPEG decompression demo
 
-Inside the `user_laptop/` directory your find a Docker based example showing how to decode the FFMPEG stream from the cameras and display them in RViZ (remember to replace the `user_laptop/superclient.xml` with your own generated in step 1.3)
+Inside the `user_laptop/` directory you can find a Docker based example showing how to decode the FFMPEG stream from the cameras and display them in RViZ (remember to replace the `user_laptop/superclient.xml` with your own file generated in step 1.3)
 
 ```bash
 cd user_laptop
@@ -101,4 +101,4 @@ docker compose up
 ---
 
 **That’s it!**
-You can now launch your local ROS 2 nodes and interact with the on‑site robot just as if everything were on the same LAN.
+You can now launch your local ROS 2 nodes and interact with the on‑site robot over the internet just as if everything were on the same LAN.
